@@ -1,0 +1,37 @@
+html{
+    font-size: 12px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+h1{
+    font-size: 30px;
+}
+th{background-color: #afe3f8}
+td, th {
+border: 1px solid #289dad;
+text-align: left;
+padding: 8px;
+}
+footer{background-color: rgb(190, 223, 212); padding: 10px;}
+body{border: lavender 2px solid;}
+form{
+    margin: 0 auto;
+    width: 350px;
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+    border-radius: 1%;
+
+}
+
+label{
+    display: inline-block;
+    text-align: right;
+}
+input{
+    width: 100px;
+}
+textarea{
+    width: 150px;
+}
