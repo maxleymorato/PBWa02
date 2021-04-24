@@ -15,6 +15,8 @@ padding: 8px;
 }
 footer{background-color: rgb(190, 223, 212); padding: 10px;}
 body{border: lavender 2px solid;}
+
+/*Customizando formulário*/
 form{
     margin: 0 auto;
     width: 350px;
@@ -23,9 +25,7 @@ form{
     padding: 10px;
     text-align: center;
     border-radius: 1%;
-
 }
-
 label{
     display: inline-block;
     text-align: right;
@@ -36,17 +36,52 @@ input{
 textarea{
     width: 150px;
 }
-
-/*Customizando formulário*/
-
 input:focus{
     border-color: black;
 }
-
-ul{
-    list-style: none;
+ul#menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(88, 88, 88);
+    position:fixed;
+    top: 0;
+    width: 1350px;
+    border-radius: 10px;
+}
+li#menu{
+    float:left;
 }
 
+li#menu a{
+    display: block;
+    color:aquamarine;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+h3{
+    text-align: center;
+}
+li, a{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 15px;
+}
+p#contato{
+    font-size: 15px;
+}
+li#menu a:hover{
+    color: azure;
+    background-color: rgba(128, 255, 0, 0.288);
+}
+article{
+    padding: 16px;
+    margin-top: 30px;
+    height: 100px;
+}
 input[type="submit"]{
     font-weight: bold;
 }
