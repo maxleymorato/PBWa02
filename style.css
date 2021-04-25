@@ -47,7 +47,7 @@ ul#menu{
     background-color: rgb(88, 88, 88);
     position:fixed;
     top: 0;
-    width: 1350px;
+    width: 100%;
     border-radius: 10px;
 }
 li#menu{
